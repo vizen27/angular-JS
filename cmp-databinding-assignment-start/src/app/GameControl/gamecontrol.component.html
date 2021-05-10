@@ -1,0 +1,17 @@
+<div class="row">
+  <div class="col-xs-12">
+    <h3>Game Control</h3>
+    <button class="btn btn-primary" (click)="startEvent($event)">Start</button>
+    |
+    <button class="btn btn-danger" (click)="stopEvent($event)">Stop</button>
+    |
+    <button class="btn btn-info" (click)="pauseEvent($event)">Pause</button>
+  </div>
+  <p></p>
+</div>
+<hr />
+<div class="row">
+  <div class="col-xs-12">
+    <p>Counter : {{ txtOutput }}</p>
+  </div>
+</div>

@@ -1,0 +1,5 @@
+/dist
+/tmp
+/out-tsc
+/bazel-out
+/node_modules
